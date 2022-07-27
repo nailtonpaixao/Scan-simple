@@ -1,8 +1,8 @@
 import requests
 
-lista = open('arquivos.txt','r')
+lista = open('Sec list','r')
 
-site = "https://worksn.com.br/"
+site = " Link "
 
 for item in lista.readlines():
         request = requests.get(site + item)
